@@ -1,5 +1,5 @@
-VERSION="1.1.0"
+VERSION="1.1.1"
 LICENSE="MIT"
 
-import base as base
-import file as file
+from . import base as base
+from . import file as file
