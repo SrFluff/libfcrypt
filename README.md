@@ -2,12 +2,16 @@
 
 Simple, symmetric encryption. Courtesy of cryptography and Fernet.
 
-
 ## Functions
 
+### Base
+
 - `base.gen_key()`: Generate a bytes object key.
+- `base.passwd_gen_key(passwd)`: Generate a bytes object key derived from a string.
 - `base.encrypts(key,string)`: Encrypt a string using a key (bytes), returns a bytes object.
 - `base.decrypts(key,string)`: Decrypt a string using a key (bytes), returns a string.
+
+### File
 
 - `file.encryptf(key,filePtr)`: Encrypt the contents of a file using a key (bytes), returns a bytes object.
 - `file.decryptf(key,filePtr)`: Decrypt the contents of a file using a key (bytes), returns a string.
