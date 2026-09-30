@@ -1,5 +1,5 @@
-import base
-import errors
+from . import base
+from . import errors
 
 
 def encryptf(key,filePtr) -> bytes:

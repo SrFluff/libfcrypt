@@ -3,7 +3,7 @@ import hashlib
 
 from cryptography.fernet import Fernet
 
-import errors
+from . import errors
 
 
 def check_key(key: bytes) -> bool:
