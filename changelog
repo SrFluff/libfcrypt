@@ -1,0 +1,28 @@
+# changelog
+
+## [1.0.0]
+
+- Release
+
+## [1.1.0]
+
+- Added base.passwd_gen_key()
+- Made __init__.py and base.py Python style compliant.
+- Made README.md markdown compliant.
+
+## [1.1.1]
+
+- Edited __init__.py to fix PyPi issue.
+
+## [1.2.0]
+
+- Added classifier for license in pyproject.md
+- Update README.md to include base.passwd_gen_key()
+- Added key check logic in all encryption and decryption functions.
+- Added changelog.
+- Added base.check_key()
+- Created errors.py
+- Created InvalidKey error for malformed Fernet keys.
+- Added base.encryptb() and base.decryptb()
+- Added type annotations to file.py.
+- Fixed minor issues in README.md
