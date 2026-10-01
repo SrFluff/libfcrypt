@@ -1,3 +1,5 @@
 dist/
 libfcrypt/__pycache__/
 __pycache__/
+.venv/
+uv.lock

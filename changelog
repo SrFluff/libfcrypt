@@ -30,3 +30,7 @@
 ## [1.2.1]
 
 - Fixed issue with relative imports.
+
+## [1.2.2]
+
+- Added cryptography as a dependancy in pyproject.toml
